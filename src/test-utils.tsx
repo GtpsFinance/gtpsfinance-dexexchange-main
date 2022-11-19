@@ -9,7 +9,7 @@ import { Provider } from 'react-redux'
 import store from 'state'
 import ThemeProvider from 'theme'
 
-import catalog from './locales/en-US'
+import catalog from './locales/en-U'
 
 i18n.load({
   [DEFAULT_LOCALE]: catalog.messages,
