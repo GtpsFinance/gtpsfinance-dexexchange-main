@@ -714,8 +714,9 @@ export default function Swap() {
                           ) : (
                             <MouseoverTooltip
                               text={
-                                <Trans>You must give Gtps.Finance permission to use your{' '}
-                                  {currencies[Field.INPUT]?.symbol}. You only have to do this once per token.
+                                <Trans>
+                                  You must give Gtps.Finance permission to use your {currencies[Field.INPUT]?.symbol}.
+                                  You only have to do this once per token.
                                 </Trans>
                               }
                             >
